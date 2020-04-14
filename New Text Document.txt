@@ -1,0 +1,48 @@
+.textrimAdditional {
+    background-color: #ddd;
+    margin-top: 20px;
+    position: relative;
+}
+.textrimAdditional .inner {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1060px;
+    margin: auto;
+    padding: 20px;
+}
+.textrimAdditional .left {
+    width: 50%;
+    text-align: center;
+    margin-right: 20px;
+    flex-grow: 1;
+}
+.textrimAdditional .right {
+    width: 50%;
+    margin-left: 20px;
+    text-align: right;
+    flex-grow: 1;
+}
+.textrimAdditional .menu {
+    font-size: 12px;
+}
+.textrimAdditional .right {
+    text-align: right;
+}
+.textrimAdditional .social {
+    margin-top: 10px;
+}
+.textrimAdditional .social a:not(:last-child) {
+    margin-right: 10px;
+}
+.textrimAdditional .social a {
+    display: inline-block;
+}
+.textrimAdditional .social svg {
+    width: 25px;
+    height: 25px;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
